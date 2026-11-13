@@ -1,0 +1,21 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: hsl(148, 38%, 91%);
+}
+
+.container{
+    width: 500px;
+    background-color: hsl(0, 0%, 100%);
+    padding: 30px;
+    border-radius: 9px;
+}
+.query{
+    display: flex; 
+    gap:10px;
+}
+.submit{
+    background-color: hsl(187, 24%, 22%);
+}
